@@ -1,41 +1,18 @@
-# Tulip
+# adam.build
 
-> Simple single page starter for Gridsome
+> Personal portfolio site build with Gridsome & Tailwind CSS 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Uninen/gridsome-starter-tulip)
+## Live Site
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Uninen/gridsome-starter-tulip)
+Deployed with Netlify: [https://adam.build/](https://adam.build/)
 
-### Preview / Demo
+## Features
 
-![Tulip starter for Gridsome preview](./static/img/screenshot-0.1.0.png)
+No blog, tags or other cruft (at least for now); only one simple page.
 
-Live demo and documentation at: https://gridsome-starter-tulip.netlify.com/
-
-### Features
-
-No blog, tags or other cruft; only one simple page you can paste your content into.
-
-- [Tailwind CSS](https://tailwindcss.com) w/ minimal base styles
-- **Single page** for your content, nothing else.
-- Ready if you need them: **Google Analytics** and **Open Graph** meta tags
-
-### Installation And Configuration
-
-First [make sure you have Gridsome installed](https://gridsome.org/docs/#how-to-install). Then run:
-
-```sh
-gridsome create my-website https://github.com/Uninen/gridsome-starter-tulip.git
-```
-
-Read and follow the [detailed configuration instructions](https://gridsome-starter-tulip.netlify.com/), you'll be done in less than 5 minutes.
-
-### Contributing
-
-Feel free to open a ticket if you feel something is broken or missing. All contributions are welcome, I only ask you to follow the [code of conduct](./CODE_OF_CONDUCT.md).
-
-Lastly, Big Thank You to Gridsome and Vue teams for making these great tools! ❤️
-
-### Support Open Source Development
-
-<a href="https://www.buymeacoffee.com/Uninen" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+- [Gridsome](https://gridsome.org/) and VueJS.
+- [Tailwind CSS](https://tailwindcss.com) with minimal base styles
+- [PostCSS](https://postcss.org/), [PurgeCSS](https://purgecss.com/), and [Sass](https://sass-lang.com/) enabled.
+- **Single page** for content, nothing else.
+- **Google Analytics** and **Open Graph** meta tags.
+- [Prettier](https://prettier.io/) (love it or hate it) for standardization.
