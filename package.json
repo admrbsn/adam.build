@@ -1,0 +1,25 @@
+{
+  "name": "adam.build",
+  "version": "0.1.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "gridsome": "^0.7.18",
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.3",
+    "sass": "^1.26.10",
+    "vue-js-parallax-component": "^0.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
+  }
+}
