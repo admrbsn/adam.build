@@ -25,16 +25,11 @@
   }
 
   .shapes {
-    .parallax__container {
-      position: absolute;
-      overflow: visible;
+    img {
+      width: 100px;
+      height: 100px;
 
-      .parallax__image {
-        width: 100px;
-        height: 100px !important;
-      }
-
-      &:first-of-type .parallax__image {
+      &:first-of-type {
         bottom: 0;
         right: -3rem;
         left: auto;
@@ -44,8 +39,7 @@
           bottom: auto;
         }
       }
-
-      &:nth-of-type(2) .parallax__image {
+      &:nth-of-type(2) {
         bottom: 0;
         left: -3rem;
 
@@ -54,15 +48,15 @@
           bottom: auto;
         }
       }
-
-      &:nth-of-type(3) .parallax__image {
+      &:last-of-type {
         right: 0;
         bottom: -4rem;
         left: auto;
 
         @media (min-width: 768px) {
+          top: 30rem;
           right: 3.75rem;
-          bottom: -12.5rem;
+          bottom: auto;
         }
       }
     }

@@ -2,13 +2,13 @@
 // The Client API can be used here. Learn more: https://gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
-import VueParallax from "vue-js-parallax-component";
 import '~/assets/scss/main.scss'
+import VuePrlx from 'vue-prlx'
 
 export default function(Vue, { router, head, isClient }) {
+  Vue.use(VuePrlx);
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('VueParallax', VueParallax)
 
   head.htmlAttrs = { lang: 'en' }
   head.bodyAttrs = { class: 'antialiased' }

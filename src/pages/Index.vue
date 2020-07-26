@@ -208,9 +208,9 @@
         <div class="flex align-center flex-col md:flex-row relative">
           <div class="bio-images order-last md:order-first relative md:w-3/6 md:mr-12">
             <div class="shapes relative z-0">
-              <vue-parallax :image="require('../assets/img/bio-circle-1.svg')" :intensity="40"></vue-parallax>
-              <vue-parallax :image="require('../assets/img/bio-circle-2.svg')" :intensiy="30"></vue-parallax>
-              <vue-parallax :image="require('../assets/img/bio-triangle.svg')" :intensiy="20"></vue-parallax>
+              <g-image v-prlx="{ speed: 0.1 }" src="~/assets/img/bio-circle-1.svg" class="absolute" />
+              <g-image v-prlx="{ speed: 0.3 }" src="~/assets/img/bio-circle-2.svg" class="absolute" />
+              <g-image v-prlx="{ speed: 0.5 }" src="~/assets/img/bio-triangle.svg" class="absolute" />
             </div>
             <g-image
               class="img-1 hidden md:block absolute z-10 w-4/6 shadow"
@@ -397,7 +397,7 @@
         src="~/assets/img/quarter-circle-bg.svg"
       />
     </div>
-    <!-- end Bio -->
+    <!-- end LinkedIn -->
 
     <!-- Contact -->
     <div class="z-10 py-10 md:py-20 bg-yellow_50">
