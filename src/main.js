@@ -49,12 +49,12 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     property: 'og:title',
-    content: 'Adam Robertson - Single Page Gridsome Starter',
+    content: 'Adam Robertson - A frontend engineer and UX designer interested in accessibility',
   })
 
   head.meta.push({
     name: 'twitter:title',
-    content: 'Adam Robertson - Single Page Gridsome Starter',
+    content: 'Adam Robertson - A frontend engineer and UX designer interested in accessibility',
   })
 
   head.meta.push({
@@ -69,11 +69,11 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     property: 'og:image',
-    content: ' https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+    content: ' https://adam.build/img/social-preview.png',
   })
 
   head.meta.push({
     name: 'twitter:image',
-    content: 'https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+    content: 'https://adam.build/img/social-preview.png',
   })
 }

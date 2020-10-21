@@ -3,17 +3,79 @@
     <!-- Hero -->
     <div class="flex items-center relative z-10 md:h-screen pb-8 md:pb-0 bg-white">
       <div class="inner relative z-10">
-        <h1 class="text-black font-display text-4xl md:text-6xl leading-extra-tight">
+        <svg
+          class="w-20 md:w-30"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 81.4 54.1"
+          style="enable-background:new 0 0 81.4 54.1;"
+          xml:space="preserve"
+        >
+          <g>
+            <polygon
+              points="5,15.6 10.8,14.5 10.8,21.5 15.8,20.6 15.8,2.2 10.8,3.1 10.8,9.8 5,10.8 5,4.1 0,5 0,23.4 5,22.5 	"
+            />
+            <path
+              d="M19.5,4.9c0.2,0.2,0.5,0.3,0.9,0.4s0.7,0.1,1,0c0.4-0.1,0.7-0.2,1.1-0.4c0.3-0.2,0.6-0.4,0.9-0.7c0.2-0.3,0.4-0.6,0.6-1
+		c0.1-0.3,0.2-0.7,0.2-1.1c0-0.4-0.1-0.7-0.2-1c-0.1-0.3-0.3-0.5-0.6-0.8c-0.2-0.2-0.5-0.3-0.9-0.4C22.1,0,21.7,0,21.4,0
+		c-0.4,0.1-0.7,0.2-1,0.4s-0.6,0.4-0.9,0.7c-0.2,0.3-0.4,0.6-0.6,0.9c-0.1,0.3-0.2,0.7-0.2,1.1c0,0.4,0.1,0.7,0.2,1
+		C19,4.5,19.2,4.7,19.5,4.9z"
+            />
+            <polygon points="19,20 23.8,19.1 23.8,6 19,6.9 	" />
+            <polygon points="32.6,11.5 29.2,12.1 29.2,24.8 32.6,24.2 	" />
+            <path
+              d="M35.7,13.7L35.7,13.7L34.5,16l1.7-0.3l1-2c0.2-0.4,0.3-0.7,0.4-0.9c0.1-0.3,0.1-0.5,0.1-0.8c0-0.5-0.2-0.9-0.5-1.1
+		c-0.3-0.3-0.7-0.3-1.2-0.2c-0.5,0.1-0.9,0.3-1.2,0.7c-0.3,0.4-0.5,0.8-0.5,1.3c0,0.4,0.1,0.7,0.4,0.9C35,13.7,35.3,13.8,35.7,13.7z
+		"
+            />
+            <path
+              d="M42.4,17.5c0-0.4,0.1-0.8,0.3-1.1c0.2-0.3,0.5-0.4,0.8-0.5c0.3-0.1,0.6,0,0.8,0.2c0.2,0.2,0.3,0.5,0.3,1V22l3.3-0.6v-4.9
+		c0-0.4,0.1-0.8,0.3-1.1c0.2-0.3,0.5-0.4,0.8-0.5c0.3-0.1,0.6,0,0.8,0.2c0.2,0.2,0.3,0.5,0.3,1V21l3.3-0.6v-5.8
+		c0-1.1-0.3-1.9-0.8-2.4s-1.3-0.7-2.3-0.5c-0.5,0.1-1.1,0.3-1.6,0.6s-0.9,0.8-1.2,1.3c-0.2-0.4-0.6-0.7-1-0.9
+		c-0.4-0.2-0.9-0.2-1.5-0.1c-0.6,0.1-1.1,0.3-1.5,0.6c-0.4,0.3-0.7,0.7-1,1.1v-1.1l-3.3,0.6V23l3.3-0.6V17.5z"
+            />
+            <path
+              d="M8.2,32.1L0,54.1l5.6-1L7,49.4l7.3-1.3l1.3,3.3l5.8-1l-8.2-19.1L8.2,32.1z M8.6,44.4l2.1-6l2.1,5.2L8.6,44.4z"
+            />
+            <path
+              d="M33.3,35c-0.5-0.6-1.1-1-1.9-1.1c-0.8-0.2-1.6-0.2-2.5,0c-1,0.2-1.9,0.5-2.7,1.1c-0.8,0.6-1.5,1.2-2.1,2
+		c-0.6,0.8-1.1,1.7-1.4,2.7c-0.3,1-0.5,2.1-0.5,3.1c0,1.1,0.2,2.1,0.5,3s0.8,1.6,1.4,2.2c0.6,0.6,1.3,1,2.1,1.2
+		c0.8,0.2,1.7,0.3,2.7,0.1c0.9-0.2,1.8-0.5,2.5-1c0.8-0.5,1.4-1.1,1.9-1.8v1.6l5.4-1V26.6l-5.4,1V35z M33.2,41.9
+		c-0.2,0.4-0.4,0.7-0.6,1c-0.3,0.3-0.6,0.6-1,0.8c-0.4,0.2-0.8,0.4-1.2,0.4c-0.4,0.1-0.8,0.1-1.1,0c-0.4-0.1-0.7-0.2-0.9-0.5
+		c-0.3-0.2-0.5-0.5-0.6-0.8c-0.2-0.3-0.2-0.7-0.2-1.1s0.1-0.8,0.2-1.2c0.2-0.4,0.4-0.7,0.6-1c0.3-0.3,0.6-0.6,0.9-0.8
+		c0.4-0.2,0.7-0.4,1.1-0.4c0.4-0.1,0.8-0.1,1.2,0c0.4,0.1,0.7,0.2,1,0.5c0.3,0.2,0.5,0.5,0.6,0.8c0.2,0.3,0.2,0.7,0.2,1.1
+		S33.4,41.6,33.2,41.9z"
+            />
+            <path
+              d="M53.3,30.9c-1.2-0.8-3-1-5.3-0.6c-1.1,0.2-2.2,0.5-3.3,1c-1,0.5-1.9,1-2.5,1.5v4.9c0.7-0.7,1.5-1.2,2.4-1.8s1.8-0.9,2.7-1
+		c0.8-0.1,1.4-0.2,1.9,0c0.5,0.1,0.7,0.4,0.7,0.9v0.1l-2.7,0.8c-2,0.6-3.4,1.4-4.4,2.4c-1,1-1.4,2.2-1.4,3.5c0,1.4,0.4,2.4,1.3,3
+		c0.9,0.6,2,0.8,3.4,0.6c0.8-0.1,1.6-0.5,2.4-1c0.7-0.5,1.3-1.1,1.6-1.9l0.1,1.8l5-0.9v-9.3C55.1,33,54.5,31.7,53.3,30.9z
+		 M49.9,39.3c0,0.6-0.2,1.2-0.6,1.8c-0.4,0.5-0.9,0.9-1.6,1c-0.8,0.1-1.3-0.1-1.3-0.8c0-0.3,0.1-0.6,0.4-0.9
+		c0.3-0.3,0.7-0.5,1.3-0.7l1.8-0.6V39.3z"
+            />
+            <path
+              d="M80.1,26.1c-0.9-0.9-2.1-1.1-3.8-0.8c-0.9,0.2-1.7,0.5-2.6,1c-0.8,0.5-1.5,1.2-2,2.2c-0.4-0.7-0.9-1.2-1.6-1.4
+		c-0.7-0.3-1.5-0.3-2.5-0.2c-0.9,0.2-1.7,0.5-2.4,1c-0.7,0.5-1.2,1.1-1.6,1.8V28l-5.4,1v14.7l5.4-1v-7.9c0-0.7,0.2-1.3,0.5-1.8
+		c0.3-0.5,0.8-0.7,1.3-0.8c0.5-0.1,1,0,1.3,0.3c0.3,0.3,0.5,0.8,0.5,1.6v8l5.4-1v-7.9c0-0.7,0.2-1.3,0.5-1.8
+		c0.3-0.5,0.8-0.7,1.3-0.8s1,0,1.3,0.3c0.3,0.3,0.5,0.8,0.5,1.6v8l5.4-1V30C81.4,28.2,81,27,80.1,26.1z"
+            />
+            <polygon points="23.8,21.9 0,25.9 0,29.2 23.8,25.2 	" />
+          </g>
+        </svg>
+        <h1 class="mt-3 text-black font-display text-4xl md:text-6xl leading-extra-tight">
           A frontend engineer and UX designer interested in accessibility.
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">
-          Design and technology make a great pairing—luckily, I have a background in both. Currently a frontend engineer
-          working in Denver, Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
+          Design and technology make a great pairing—luckily, I have a background in both. Currently, a frontend engineer
+          working in Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
           about me below or take a look at my résumé.
         </p>
         <a
-          href=""
-          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-600 rounded shadow text-lg font-medium hover:text-dribbble hover:border-dribbble"
+          href="https://dribbble.com/adamrobertson/"
+          target="_blank"
+          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-400 rounded shadow text-lg font-medium hover:text-dribbble hover:border-dribbble"
         >
           <svg
             class="w-5 mr-2 fill-current"
@@ -31,7 +93,7 @@
         <a
           href="https://github.com/admrbsn/"
           target="_blank"
-          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-600 rounded shadow text-lg font-medium hover:text-github hover:border-github"
+          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-400 rounded shadow text-lg font-medium hover:text-github hover:border-github"
         >
           <svg
             class="w-5 mr-2 fill-current"
@@ -56,7 +118,7 @@
       <div class="inner">
         <div class="md:flex">
           <div class="md:w-3/6 md:h-screen md:sticky md:mr-12 mb-10 md:mb-0">
-            <div class="text-baby_blue text-xl md:text-2xl font-medium">
+            <div class="text-silver text-xl md:text-2xl font-medium">
               Experience is growth
             </div>
             <h4 class="text-white text-3xl md:text-5xl font-display leading-extra-tight">
@@ -92,8 +154,8 @@
               <p class="text-white_75">
                 Consulted
                 <a href="https://droplr.com/" target="_blank">Droplr</a>
-                on rebranding and redesining their consumer-facing sites. Built a custom WordPress multi-site theme with
-                a focus on SEO and page speed; increased organic traffic by ~115% over the course of 4 months and
+                on rebranding and redesigning their consumer-facing sites. Built a custom WordPress multi-site theme with
+                a focus on SEO and page speed; increased organic traffic by ~115% over 4 months and
                 achieved a 99/85 on Google PageSpeed Insights. Led an effort to standardize, improve, and codify the use
                 of brand assets.
               </p>
@@ -108,7 +170,7 @@
               <p class="text-white_75">
                 Combined the art of design with the science of programming to lead all UX/UI and frontend development
                 for the company. Was responsible for executing product visions from wireframing and high-fidelity mocks
-                to prototyping and production-ready code, all in in an Angile enviornment. Worked with Laravel, VueJS,
+                to prototyping and production-ready code, all in an Agile environment. Worked with Laravel, VueJS,
                 and Bootstrap to build a handful of both D2C and client portal sites.
               </p>
             </div>
@@ -122,7 +184,7 @@
               <p class="text-white_75">
                 Responsible for the design and frontend development of all client websites with a focus on user-centered
                 design principles, best practices, and industry trends. Worked independently to meet tight deadlines,
-                sometimes delivering a new site on a weekly basis. Also responsible for all branding and print design.
+                sometimes delivering a new site every week. Also responsible for all branding and print design.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -134,8 +196,8 @@
               </div>
               <p class="text-white_75">
                 Led all web efforts for ETHDenver, the world's largest Etherium hackathon event with over 2,000
-                participants. This included the the promotional site, application forms for teams, event schedule, and
-                social media assets. Used WordPress and integrated woth Devfolio.
+                participants. This included the promotional site, application forms for teams, event schedules, and
+                social media assets. Used WordPress and integrated with Devfolio.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -146,15 +208,14 @@
                 Freelance Design &amp; Development at Inspirato
               </div>
               <p class="text-white_75">
-                Inspirato is a luxury hospitality company that provides it's members access to several hundred million
-                dollars worth of luxury vacation homes in beach, mountain and metropolitan destinations around the
+                Inspirato is a luxury hospitality company that provides its members access to several hundred million
+                dollars worth of luxury vacation homes in beach, mountain, and metropolitan destinations around the
                 world. Designed and developed the company's
                 <a href="https://www.inspirato.com/details/" target="_blank">
                   blog
                 </a>
                 . Also, helped launch
-                <em>Inspirato with American Express</em>
-                , a partnership offering benefits to American Express cardmembers.
+                <em>Inspirato with American Express</em>, a partnership offering benefits to American Express cardmembers.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -167,23 +228,10 @@
               <p class="text-white_75">
                 The creative lead for all web and interactive design for over 10 clients, including sites, banner ads,
                 iOS apps, and Adobe Flash applications. Notable clients included the official tourism sites for
-                <a href="https://colorado.com/" target="_blank">Colorado</a>
-                ,
-                <a href="https://sftravel.com/" target="_blank">
-                  San Francisco
-                </a>
-                ,
-                <a href="https://visitphilly.com/" target="_blank">
-                  Philadelphia
-                </a>
-                ,
-                <a href="https://austintexas.org/" target="_blank">Austin</a>
-                , and
-                <a href="https://visitseattle.org/" target="_blank">Seattle</a>
-                . Also responsible for the design and management of banner ads via 24/7 Open AdStream.
+                <a href="https://colorado.com/" target="_blank">Colorado</a>, <a href="https://sftravel.com/" target="_blank">San Francisco</a>, <a href="https://visitphilly.com/" target="_blank">Philadelphia</a>, <a href="https://austintexas.org/" target="_blank">Austin</a>, and <a href="https://visitseattle.org/" target="_blank">Seattle</a>. Also responsible for the design and management of banner ads via 24/7 Open AdStream.
               </p>
             </div>
-            <div class="mb-8 md:border-b md:border-white_25">
+            <div class="mb-8 md:border-white_25">
               <div class="text-sm md:text-xl font-display text-pink font-normal">
                 Februrary 2014 - April 2014
               </div>
@@ -207,22 +255,20 @@
       <div class="inner">
         <div class="flex align-center flex-col md:flex-row relative">
           <div class="bio-images order-last md:order-first relative md:w-3/6 md:mr-12">
-            <div class="shapes relative z-0">
-              <g-image v-prlx="{ speed: 0.1 }" src="~/assets/img/bio-circle-1.svg" class="absolute" />
-              <g-image v-prlx="{ speed: 0.3 }" src="~/assets/img/bio-circle-2.svg" class="absolute" />
-              <g-image v-prlx="{ speed: 0.5 }" src="~/assets/img/bio-triangle.svg" class="absolute" />
-            </div>
             <g-image
+              v-prlx="{ speed: 0.1 }"
               class="img-1 hidden md:block absolute z-10 w-4/6 shadow"
               alt="Bio Image 1"
               src="~/assets/img/Slash2.jpg"
             />
             <g-image
+              v-prlx="{ speed: 0.3, reverse: true }"
               class="img-2 hidden md:block absolute z-20 w-4/6 shadow"
               alt="Bio Image 2"
               src="~/assets/img/adam.jpg"
             />
             <g-image
+              v-prlx="{ speed: 0.2, reverse: true }"
               class="img-3 relative md:absolute z-30 w-full md:w-3/6 shadow"
               alt="Bio Image 3"
               src="~/assets/img/colorado.jpg"
@@ -238,21 +284,14 @@
             <p class="text-gray-800">
               I like to wear hats. In fact, I wear so many hats at work, I've adopted the nickname "Slash." While I love
               design, I'm always growing my
-              <a href="https://medium.com/@jchyip/why-t-shaped-people-e8706198e437" targey="_blank">
-                T-shape
-              </a>
-              , whether it's reading usability studies, geeking out with new tools, or experimenting with JavaScript
+              <a href="https://medium.com/@jchyip/why-t-shaped-people-e8706198e437" targey="_blank">T-shape</a>, whether it's reading usability studies, geeking out with new tools, or experimenting with JavaScript
               libraries. My expertise, however, is rooted in UX design and frontend development. Good design is what
               separates the best products from the good ones. One of my favorite quotes is "The details are not the
-              details... They make the design," by Charles Eames. I obsess over typography, alignment, colors, and neat
+              details—They make the design," by Charles Eames. I obsess over typography, alignment, colors, and neat
               code.
             </p>
             <p class="text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              Originally from northwestern Ohio, I moved to Colorado shortly after graduating college with a BA in Foreign Affairs. I've been building websites since I was 16, working to some capacity for numerous businesses and startups. In my free time, I enjoy hiking, cooking, DIYing, and spending time with my family.
             </p>
           </div>
         </div>
@@ -279,13 +318,9 @@
               What co-workers have to say
             </h4>
             <p class="text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+              Behind every positive interaction is an experience that matters. Whether it's freelance clients or ex-supervisors, I cherish those positive interactions. At the end of the day, work <i>is</i> personal. And some of my best friendships are a result of work relationships.
             </p>
-            <button
+            <a href="https://www.linkedin.com/in/admrbsn/" target="_blank"
               class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black hover:text-linkedin border border-gray-400 hover:border-linkedin rounded shadow font-medium"
             >
               <svg
@@ -300,12 +335,12 @@
                 />
               </svg>
               <span>View my LinkedIn</span>
-            </button>
+            </a>
           </div>
           <div class="md:w-3/6 md:ml-12">
-            <div class="my-5 md:-ml-12 p-8 shadow bg-white rounded">
+            <div class="my-5 md:-ml-12 p-8 shadow-lg bg-white rounded">
               <svg
-                class="w-8 h-8 mb-2 fill-red"
+                class="w-8 h-8 mb-2 fill-yellow"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -317,14 +352,14 @@
               </svg>
               <p class="mb-3 text-black">
                 It was a pleasure working with Adam and I'd so again in a heartbeat. He's the type of guy you want on
-                your team: creative, driven, resourceful and fun to work with. Any company would be lucky to have him.
+                your team: creative, driven, resourceful, and fun to work with. Any company would be lucky to have him.
               </p>
-              <p class="mb-0 text-black font-bold">Nate Frick</p>
+              <p class="mb-0 text-black font-bold">Nate</p>
               <p class="mb-0 text-black opacity-50">
-                Vice President, Services at Wayin
+                Vice President of Services, Wayin
               </p>
             </div>
-            <div class="my-5 md:-mr-12 p-8 shadow bg-white rounded">
+            <div class="my-5 md:-mr-12 p-8 shadow-lg bg-white rounded">
               <svg
                 class="inline w-5 h-5 mb-2 fill-yellow"
                 xmlns="http://www.w3.org/2000/svg"
@@ -381,31 +416,29 @@
                 />
               </svg>
               <p class="mb-3 text-black">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
+                Our WordPress theme works flawlessly. Adam was prompt, thorough, and knowledgeable on everything from the design to the migration and hosting. He configured WordPress in a way that I've never seen before—we're able to update virtually every piece of content without having to worry about the layout breaking.
               </p>
-              <p class="mb-0 text-black font-bold">Person Name</p>
-              <p class="mb-0 text-black opacity-50">Person Title</p>
+              <p class="mb-0 text-black font-bold">Erin</p>
+              <p class="mb-0 text-black opacity-50">Vice President of Marketing, TinLeg</p>
             </div>
           </div>
         </div>
       </div>
-      <g-image
-        class="fixed top-0 right-0 z-0 w-2/3 md:w-3/6 opacity-25"
+      <!-- <g-image
+        class="fixed top-0 right-0 z-0 w-2/3 md:w-3/6"
         alt="Quarter circle"
         src="~/assets/img/quarter-circle-bg.svg"
-      />
+      /> -->
     </div>
     <!-- end LinkedIn -->
 
     <!-- Contact -->
-    <div class="z-10 py-10 md:py-20 bg-yellow_50">
+    <div class="z-10 py-10 md:py-20 bg-yellow_90">
       <div class="inner">
         <div class="flex justify-center md:text-center">
           <div class="md:w-3/4">
             <h4 class="text-black text-3xl md:text-5xl font-display leading-extra-tight">
-              Id'd love to build something amazing together..
+              I'd love to build something amazing together..
             </h4>
             <p class="mb-5 text-gray-700">
               Have a project? Let's chat. I'm currently accepting inquiries for small and medium sized projects.
@@ -438,7 +471,7 @@
         <div class="md:flex justify-between text-sm">
           <div>&copy;{{ new Date().getFullYear() }} Adam Robertson</div>
           <div class="flex flex-wrap md:flex-no-wrap">
-            <div class="md:inline">
+            <div class="md:inline-flex md:items-center">
               Built with&nbsp;
               <span class="inline-flex items-center">
                 <g-image alt="Gridsome" src="~/assets/img/gridsome.svg" class="w-4" />
@@ -457,8 +490,8 @@
               </span>
               .
             </div>
-            <div class="md:inline">
-              Styled with&nbsp;
+            <div class="md:inline-flex md:items-center">
+              &nbsp;Styled with&nbsp;
               <span class="inline-flex items-center">
                 <g-image alt="Tailwind CSS" src="~/assets/img/tailwind-css.svg" class="w-4" />
                 &nbsp;
@@ -471,9 +504,10 @@
                   Tailwind CSS
                 </a>
               </span>
+              .
             </div>
-            <div class="md:inline">
-              Deployed with&nbsp;
+            <div class="md:inline-flex md:items-center">
+              &nbsp;Deployed with&nbsp;
               <span class="inline-flex items-center">
                 <g-image alt="Netlify" src="~/assets/img/netlify.svg" class="w-4" />
                 &nbsp;
@@ -506,7 +540,7 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Adam Robertson - Single Page Gridsome Starter",
+    title: "Adam Robertson - A frontend engineer and UX designer interested in accessibility",
   },
 };
 </script>

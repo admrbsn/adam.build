@@ -36,6 +36,6 @@ module.exports = {
     // Overrided here to avoid having 'My Site Name - My Site Name' on homepage
     titleTemplate: '%s',
     // Default is './src/favicon.png'
-    icon: './src/assets/img/favicon.png',
+    //icon: './src/assets/img/favicon.ico',
     plugins,
 }

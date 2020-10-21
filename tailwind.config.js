@@ -11,9 +11,9 @@ module.exports = {
             dribbble: '#ec498a',
             github: '#1274e7',
             linkedin: '#1177b5',
-            dark_blue: '#09016d',
-            yellow: '#fee889',
-            yellow_50: 'rgba(254,232,137,0.6)',
+            dark_blue: '#293d54',
+            yellow: '#fadaa3',
+            yellow_90: 'rgba(250,218,163,0.9)',
             pink: '#fa758a',
             light_pink: '#fec9d1',
             pink_40: 'rgba(250,117,138,0.4)',
@@ -22,6 +22,7 @@ module.exports = {
             white_25: 'rgba(255,255,255,0.25)',
             white_50: 'rgba(255,255,255,0.50)',
             white_75: 'rgba(255,255,255,0.75)',
+            silver: '#c5cbd4',
             gray: {
                 100: '#f7fafc',
                 200: '#edf2f7',
@@ -50,7 +51,6 @@ module.exports = {
                 '30': '7rem',
             },
             fill: theme => ({
-                'red': theme('colors.github'),
                 'yellow': theme('colors.yellow'),
             })
         },
