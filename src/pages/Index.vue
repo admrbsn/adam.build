@@ -128,7 +128,7 @@
               I’ve been fortunate enough to have worked for a variety of great companies in both design and engineering
               roles. For more information, view my full résumé.
             </p>
-            <button class="inline-flex items-center bg-white text-black shadow rounded mr-2 py-4 px-6 font-medium">
+            <a href="/Resume - Adam Robertson.pdf" target="_blank" class="inline-flex items-center bg-white text-black shadow rounded mr-2 py-4 px-6 font-medium">
               <svg
                 class="w-5 mr-2 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@
                 />
               </svg>
               <span>View my Résumé</span>
-            </button>
+            </a>
           </div>
           <div class="md:w-3/6 md:ml-12">
             <div class="mb-8 md:border-b md:border-white_25">

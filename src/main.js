@@ -14,6 +14,10 @@ export default function(Vue, { router, head, isClient }) {
   head.bodyAttrs = { class: 'antialiased' }
 
   // Styles
+  head.link.push({
+    rel: 'icon',
+    href: 'data:,'
+  })
 
   // Basic meta tags
   head.meta.push({
