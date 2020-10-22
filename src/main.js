@@ -32,18 +32,18 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'A frontend engineer and UX designer interested in accessibility.',
   })
 
   // Open Graph + Twitter meta tags
   head.meta.push({
     property: 'og:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'A frontend engineer and UX designer interested in accessibility.',
   })
 
   head.meta.push({
     name: 'twitter:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'A frontend engineer and UX designer interested in accessibility..',
   })
 
   head.meta.push({
@@ -53,12 +53,12 @@ export default function(Vue, { router, head, isClient }) {
 
   head.meta.push({
     property: 'og:title',
-    content: 'Adam Robertson - A frontend engineer and UX designer interested in accessibility',
+    content: 'Adam Robertson - A frontend engineer and UX designer',
   })
 
   head.meta.push({
     name: 'twitter:title',
-    content: 'Adam Robertson - A frontend engineer and UX designer interested in accessibility',
+    content: 'Adam Robertson - A frontend engineer and UX designer',
   })
 
   head.meta.push({
