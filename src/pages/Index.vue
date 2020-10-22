@@ -109,7 +109,7 @@
           <span>GitHub</span>
         </a>
       </div>
-      <g-image class="absolute bottom-0 z-0 w-full" alt="Shapes" src="~/assets/img/shapes.svg" />
+      <g-image class="absolute bottom-0 z-0 w-full" alt="Shapes" src="~/assets/img/shapes.svg" immediate="true" />
     </div>
     <!-- end Hero -->
 
