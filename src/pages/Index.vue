@@ -1,10 +1,10 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <div class="flex items-center relative z-10 md:h-screen pb-8 md:pb-0 bg-white">
+    <div class="flex items-center relative z-10 h-screen pb-8 md:pb-0 bg-white">
       <div class="inner relative z-10">
         <svg
-          class="w-20 md:w-30"
+          class="hidden md:block w-30"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px"
@@ -64,7 +64,7 @@
             <polygon points="23.8,21.9 0,25.9 0,29.2 23.8,25.2 	" />
           </g>
         </svg>
-        <h1 class="mt-3 text-black font-display text-4xl md:text-6xl leading-extra-tight">
+        <h1 class="md:mt-3 text-black font-display text-3xl md:text-6xl leading-extra-tight">
           A frontend engineer and UX designer interested in accessibility.
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">

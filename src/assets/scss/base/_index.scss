@@ -1,7 +1,16 @@
 // Header
-.md\:sticky {
+#header {
+  height: 4.25rem;
+
   @media (min-width: 768px) {
     top: 2rem;
+    height: auto;
+  }
+}
+
+main > .h-screen {
+  @media (max-width: 767px) {
+    height: calc(100vh - 4.25rem);
   }
 }
 
