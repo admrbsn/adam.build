@@ -8,22 +8,26 @@
   }
 }
 
+/* main > .h-screen {
+  @media (max-width: 767px) {
+    height: calc(100vh - 4.25rem);
+  }
+} */
+
 // Bio section
 .bio-images {
-  img {
-    &.img-1 {
+  .img-1 {
       right: 0;
-    }
+  }
 
-    &.img-2 {
-      bottom: 5rem;
-    }
+  .img-2 {
+    bottom: 5rem;
+  }
 
-    &.img-3 {
-      @media (min-width: 768px) {
-        right: 5rem;
-        bottom: 0;
-      }
+  .img-3 {
+    @media (min-width: 768px) {
+      right: 5rem;
+      bottom: 0;
     }
   }
 }
