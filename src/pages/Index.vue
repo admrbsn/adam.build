@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <div class="flex items-center relative z-10 md:h-screen py-12 md:pb-0 bg-white">
+    <div class="flex items-center relative z-10 md:h-screen py-16 md:py-0 bg-white">
       <div class="inner relative z-10">
         <svg
           class="hidden md:block w-30"
@@ -158,11 +158,10 @@
               <p class="text-white_75">
                 Consulted
                 <a href="https://droplr.com/" target="_blank">Droplr</a>
-                on rebranding and redesigning their consumer-facing sites. Built a custom WordPress multi-site theme
-                with a focus on SEO and page speed; increased organic traffic by ~115% over 4 months and achieved a
-                99/85 on Google PageSpeed Insights. Led an effort to standardize, improve, and codify the use of brand
-                assets. Assisted in an advanced configuration of Google Analytics to capture all stages of the purchase
-                flow.
+                on rebranding and redesigning all consumer-facing sites. Built a custom WordPress multi-site theme with
+                a focus on SEO and page speed; increased organic traffic by ~115% over 3 months and achieved a 99/85 on
+                Google PageSpeed Insights. Led an effort to standardize, improve, and codify the use of brand assets.
+                Assisted in an advanced configuration of Google Analytics to capture all stages of the purchase flow.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -178,7 +177,8 @@
                 production-ready code, all in an Agile environment. Helped lead a 6 month effort to migrate
                 <a href="https://petersons.com/" target="_blank">Peterson's</a> from a 15+ year-old .NET stack to
                 Laravel, VueJS, and Bootstrap. Also stepped in to work alongside our international development team to
-                design a complex native mobile app within 3 months.
+                design a complex native mobile app within 3 months. Experience with Auth0, WooCommerce, CloudFront, and
+                CloudSearch.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -202,9 +202,10 @@
                 Freelance Design &amp; Development at ETHDenver
               </div>
               <p class="text-white_75">
-                Led all web efforts for ETHDenver, the world's largest Etherium hackathon event with over 2,000
-                participants. This included the promotional site, application forms for teams, event schedules, and
-                social media assets. Used WordPress and integrated with Devfolio.
+                Led all web efforts for <a href="https://www.ethdenver.com/" target="_blank">ETHDenver</a>, the world's
+                largest Etherium hackathon event with over 2,000 participants. This included the promotional site,
+                application forms for teams, event schedules, and social media assets. Used WordPress and integrated
+                with Devfolio.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -495,18 +496,16 @@
           <div>&copy;{{ new Date().getFullYear() }} Adam Robertson</div>
           <div class="flex flex-wrap md:flex-no-wrap">
             <div class="md:inline-flex md:items-center">
-              Built with&nbsp;
+              Built with
               <span class="inline-flex items-center">
-                <g-image alt="Gridsome" src="~/assets/img/gridsome.svg" class="w-4" />
-                &nbsp;
+                <g-image alt="Gridsome" src="~/assets/img/gridsome.svg" class="hidden md:block w-4" />
                 <a href="https://gridsome.org/" target="_blank" class="font-medium underline" style="color: #17a672;">
                   Gridsome
                 </a>
               </span>
-              &nbsp;and&nbsp;
+              and
               <span class="inline-flex items-center">
-                <g-image alt="VueJS" src="~/assets/img/vue.svg" class="w-4" />
-                &nbsp;
+                <g-image alt="VueJS" src="~/assets/img/vue.svg" class="hidden md:block w-4" />
                 <a href="https://vuejs.org/" target="_blank" class="font-medium underline" style="color: #41b883;">
                   VueJS
                 </a>
@@ -514,10 +513,9 @@
               .
             </div>
             <div class="md:inline-flex md:items-center">
-              &nbsp;Styled with&nbsp;
+              Styled with
               <span class="inline-flex items-center">
-                <g-image alt="Tailwind CSS" src="~/assets/img/tailwind-css.svg" class="w-4" />
-                &nbsp;
+                <g-image alt="Tailwind CSS" src="~/assets/img/tailwind-css.svg" class="hidden md:block w-4" />
                 <a
                   href="https://tailwindcss.com/"
                   target="_blank"
@@ -530,10 +528,9 @@
               .
             </div>
             <div class="md:inline-flex md:items-center">
-              &nbsp;Deployed with&nbsp;
+              Deployed with
               <span class="inline-flex items-center">
-                <g-image alt="Netlify" src="~/assets/img/netlify.svg" class="w-4" />
-                &nbsp;
+                <g-image alt="Netlify" src="~/assets/img/netlify.svg" class="hidden md:block w-4" />
                 <a
                   href="https://www.netlify.com/"
                   target="_blank"
