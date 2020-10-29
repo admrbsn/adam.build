@@ -498,11 +498,11 @@
             <div class="md:inline-flex md:items-center">
               Built with
               <span class="inline-flex items-center">
-                <g-image alt="Gridsome" src="~/assets/img/gridsome.svg" class="hidden md:block md:w-4 md:mx-2" />
+                <g-image alt="Gridsome" src="~/assets/img/gridsome.svg" class="hidden md:block md:w-4 md:mx-1" />
                 <a
                   href="https://gridsome.org/"
                   target="_blank"
-                  class="md:mr-2 font-medium underline"
+                  class="md:mr-1 font-medium underline"
                   style="color: #17a672;"
                 >
                   Gridsome
@@ -510,11 +510,11 @@
               </span>
               and
               <span class="inline-flex items-center">
-                <g-image alt="VueJS" src="~/assets/img/vue.svg" class="hidden md:block md:w-4 md:mx-2" />
+                <g-image alt="VueJS" src="~/assets/img/vue.svg" class="hidden md:block md:w-4 md:mx-1" />
                 <a
                   href="https://vuejs.org/"
                   target="_blank"
-                  class="md:mr-2 font-medium underline"
+                  class="font-medium underline"
                   style="color: #41b883;"
                 >
                   VueJS
@@ -522,18 +522,18 @@
                 .
               </span>
             </div>
-            <div class="md:inline-flex md:items-center">
+            <div class="md:inline-flex md:items-center md:ml-1">
               Styled with
               <span class="inline-flex items-center">
                 <g-image
                   alt="Tailwind CSS"
                   src="~/assets/img/tailwind-css.svg"
-                  class="hidden md:block md:w-4 md:mx-2"
+                  class="hidden md:block md:w-4 md:mx-1"
                 />
                 <a
                   href="https://tailwindcss.com/"
                   target="_blank"
-                  class="md:mr-2 font-medium underline"
+                  class="font-medium underline"
                   style="color: #1dbfb8;"
                 >
                   Tailwind CSS
@@ -541,10 +541,10 @@
                 .
               </span>
             </div>
-            <div class="md:inline-flex md:items-center">
+            <div class="md:inline-flex md:items-center md:ml-1 ">
               Deployed with
               <span class="inline-flex items-center">
-                <g-image alt="Netlify" src="~/assets/img/netlify.svg" class="hidden md:block md:w-4 md:mx-2" />
+                <g-image alt="Netlify" src="~/assets/img/netlify.svg" class="hidden md:block md:w-4 md:mx-1" />
                 <a
                   href="md:mr-2 https://www.netlify.com/"
                   target="_blank"
