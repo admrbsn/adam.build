@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <!-- Hero -->
-    <div class="flex items-center relative z-10 h-screen pb-8 md:pb-0 bg-white">
+    <div class="flex items-center relative z-10 md:h-screen py-12 md:pb-0 bg-white">
       <div class="inner relative z-10">
         <svg
           class="hidden md:block w-30"
@@ -68,8 +68,8 @@
           A frontend engineer and UX designer interested in accessibility.
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">
-          Design and technology make a great pairing—luckily, I have a background in both. Currently, a frontend engineer
-          working in Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
+          Design and technology make a great pairing—luckily, I have a background in both. Currently, a frontend
+          engineer working in Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
           about me below or take a look at my résumé.
         </p>
         <a
@@ -128,7 +128,11 @@
               I’ve been fortunate enough to have worked for a variety of great companies in both design and engineering
               roles. For more information, view my full résumé.
             </p>
-            <a href="/Resume - Adam Robertson.pdf" target="_blank" class="inline-flex items-center bg-white text-black shadow rounded mr-2 py-4 px-6 font-medium">
+            <a
+              href="/Adam Robertson - Resume.pdf"
+              target="_blank"
+              class="inline-flex items-center bg-white text-black shadow rounded mr-2 py-4 px-6 font-medium"
+            >
               <svg
                 class="w-5 mr-2 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -154,10 +158,11 @@
               <p class="text-white_75">
                 Consulted
                 <a href="https://droplr.com/" target="_blank">Droplr</a>
-                on rebranding and redesigning their consumer-facing sites. Built a custom WordPress multi-site theme with
-                a focus on SEO and page speed; increased organic traffic by ~115% over 4 months and
-                achieved a 99/85 on Google PageSpeed Insights. Led an effort to standardize, improve, and codify the use
-                of brand assets.
+                on rebranding and redesigning their consumer-facing sites. Built a custom WordPress multi-site theme
+                with a focus on SEO and page speed; increased organic traffic by ~115% over 4 months and achieved a
+                99/85 on Google PageSpeed Insights. Led an effort to standardize, improve, and codify the use of brand
+                assets. Assisted in an advanced configuration of Google Analytics to capture all stages of the purchase
+                flow.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -168,10 +173,12 @@
                 Manager, UX/UI &amp; Frontend Development at Peterson's
               </div>
               <p class="text-white_75">
-                Combined the art of design with the science of programming to lead all UX/UI and frontend development
-                for the company. Was responsible for executing product visions from wireframing and high-fidelity mocks
-                to prototyping and production-ready code, all in an Agile environment. Worked with Laravel, VueJS,
-                and Bootstrap to build a handful of both D2C and client portal sites.
+                Combined design and development efforts to lead all UX/UI and frontend development for the company. Was
+                responsible for executing product visions from wireframing and high-fidelity mocks to prototyping and
+                production-ready code, all in an Agile environment. Helped lead a 6 month effort to migrate
+                <a href="https://petersons.com/" target="_blank">Peterson's</a> from a 15+ year-old .NET stack to
+                Laravel, VueJS, and Bootstrap. Also stepped in to work alongside our international development team to
+                design a complex native mobile app within 3 months.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -212,10 +219,11 @@
                 dollars worth of luxury vacation homes in beach, mountain, and metropolitan destinations around the
                 world. Designed and developed the company's
                 <a href="https://www.inspirato.com/details/" target="_blank">
-                  blog
+                  WordPress blog
                 </a>
                 . Also, helped launch
-                <em>Inspirato with American Express</em>, a partnership offering benefits to American Express cardmembers.
+                <em>Inspirato with American Express</em>, a partnership offering benefits to American Express
+                cardmembers.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -228,7 +236,12 @@
               <p class="text-white_75">
                 The creative lead for all web and interactive design for over 10 clients, including sites, banner ads,
                 iOS apps, and Adobe Flash applications. Notable clients included the official tourism sites for
-                <a href="https://colorado.com/" target="_blank">Colorado</a>, <a href="https://sftravel.com/" target="_blank">San Francisco</a>, <a href="https://visitphilly.com/" target="_blank">Philadelphia</a>, <a href="https://austintexas.org/" target="_blank">Austin</a>, and <a href="https://visitseattle.org/" target="_blank">Seattle</a>. Also responsible for the design and management of banner ads via 24/7 Open AdStream.
+                <a href="https://colorado.com/" target="_blank">Colorado</a>,
+                <a href="https://sftravel.com/" target="_blank">San Francisco</a>,
+                <a href="https://visitphilly.com/" target="_blank">Philadelphia</a>,
+                <a href="https://austintexas.org/" target="_blank">Austin</a>, and
+                <a href="https://visitseattle.org/" target="_blank">Seattle</a>. Also responsible for the design and
+                management of banner ads via 24/7 Open AdStream.
               </p>
             </div>
             <div class="mb-8 md:border-white_25">
@@ -284,14 +297,17 @@
             <p class="text-gray-800">
               I like to wear hats. In fact, I wear so many hats at work, I've adopted the nickname "Slash." While I love
               design, I'm always growing my
-              <a href="https://medium.com/@jchyip/why-t-shaped-people-e8706198e437" targey="_blank">T-shape</a>, whether it's reading usability studies, geeking out with new tools, or experimenting with JavaScript
-              libraries. My expertise, however, is rooted in UX design and frontend development. Good design is what
-              separates the best products from the good ones. One of my favorite quotes is "The details are not the
-              details—They make the design," by Charles Eames. I obsess over typography, alignment, colors, and neat
-              code.
+              <a href="https://medium.com/@jchyip/why-t-shaped-people-e8706198e437" targey="_blank">T-shape</a>, whether
+              it's reading usability studies, geeking out with new tools, or experimenting with JavaScript libraries. My
+              expertise, however, is rooted in UX design and frontend development. Good design is what separates the
+              best products from the good ones. One of my favorite quotes is "The details are not the details—They make
+              the design," by Charles Eames. I obsess over typography, alignment, colors, and neat code.
             </p>
             <p class="text-gray-800">
-              Originally from northwestern Ohio, I moved to Colorado shortly after graduating college with a BA in Foreign Affairs. I've been building websites since I was 16, working to some capacity for numerous businesses and startups. In my free time, I enjoy hiking, cooking, DIYing, and spending time with my family.
+              Originally from northwestern Ohio, I moved to Colorado shortly after graduating college with a BA in
+              Foreign Affairs. I've been building websites since I was 16, working to some capacity for numerous
+              businesses and startups. In my free time, I enjoy hiking, cooking, DIYing, and spending time with my
+              family.
             </p>
           </div>
         </div>
@@ -318,9 +334,13 @@
               What co-workers have to say
             </h4>
             <p class="text-gray-700">
-              Behind every positive interaction is an experience that matters. Whether it's freelance clients or ex-supervisors, I cherish those positive interactions. At the end of the day, work <i>is</i> personal. And some of my best friendships are a result of work relationships.
+              Behind every positive interaction is an experience that matters. Whether it's freelance clients or
+              ex-supervisors, I cherish those positive interactions. At the end of the day, work <i>is</i> personal. And
+              some of my best friendships are a result of work relationships.
             </p>
-            <a href="https://www.linkedin.com/in/admrbsn/" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/admrbsn/"
+              target="_blank"
               class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black hover:text-linkedin border border-gray-400 hover:border-linkedin rounded shadow font-medium"
             >
               <svg
@@ -416,7 +436,10 @@
                 />
               </svg>
               <p class="mb-3 text-black">
-                Our WordPress theme works flawlessly. Adam was prompt, thorough, and knowledgeable on everything from the design to the migration and hosting. He configured WordPress in a way that I've never seen before—we're able to update virtually every piece of content without having to worry about the layout breaking.
+                Our WordPress theme works flawlessly. Adam was prompt, thorough, and knowledgeable on everything from
+                the design to the migration and hosting. He configured WordPress in a way that I've never seen
+                before—we're able to update virtually every piece of content without having to worry about the layout
+                breaking.
               </p>
               <p class="mb-0 text-black font-bold">Erin</p>
               <p class="mb-0 text-black opacity-50">Vice President of Marketing, TinLeg</p>
