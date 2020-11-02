@@ -65,10 +65,10 @@
           </g>
         </svg>
         <h1 class="md:mt-3 text-black font-display text-3xl md:text-6xl leading-extra-tight">
-          A frontend engineer and UX designer interested in accessibility.
+          A UX designer & frontend engineer interested in accessibility.
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">
-          Design and technology make a great pairing—luckily, I have a background in both. Currently, a frontend
+          Design and technology make a great pairing—luckily, I have a background in both. Currently, I'm a frontend
           engineer working in Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
           about me below or take a look at my résumé.
         </p>
@@ -153,7 +153,7 @@
                 December 2019 - Present
               </div>
               <div class="mb-5 md:mb-6 font-display text-xl md:text-2xl text-white font-weight-bold leading-tight">
-                Freelance Design &amp; Development at Droplr
+                Consultant at Droplr
               </div>
               <p class="text-white_75">
                 Consulted
@@ -169,16 +169,15 @@
                 March 2014 - Present
               </div>
               <div class="mb-5 md:mb-6 font-display text-xl md:text-2xl text-white font-weight-bold leading-tight">
-                Manager, UX/UI &amp; Frontend Development at Peterson's
+                Sr. Manager, UX/UI &amp; Frontend Development at Peterson's
               </div>
               <p class="text-white_75">
-                Combined design and development efforts to lead all UX/UI and frontend development for the company. Was
+                Combined design and development efforts to lead all UX/UI and frontend development for the company, including managing small teams. Was
                 responsible for executing product visions from wireframing and high-fidelity mocks to prototyping and
-                production-ready code, all in an Agile environment. Helped lead a 6 month effort to migrate
+                production-ready code, all in an Agile environment. Helped spearhead a 6 month effort to migrate
                 <a href="https://petersons.com/" target="_blank">Peterson's</a> from a 15+ year-old .NET stack to
-                Laravel, VueJS, and Bootstrap. Also stepped in to work alongside our international development team to
-                design a complex native mobile app within 3 months. Experience with Auth0, WooCommerce, CloudFront, and
-                CloudSearch.
+                Bootstrap, Laravel, and VueJS. Worked alongside our international development team to
+                design a complex native mobile app within 3 months. Experience with Auth0, AWS, Docker/Vagrant, Node/Yarn, Git/GitLab, and WordPress/WooCommerce. Earned a CSM from Scrum Alliance.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -186,12 +185,12 @@
                 December 2011 - March 2014
               </div>
               <div class="mb-5 md:mb-6 font-display text-xl md:text-2xl text-white font-weight-bold leading-tight">
-                WordPress Designer/Developer at Webolutions
+                Sr. WordPress Designer/Developer at Webolutions
               </div>
               <p class="text-white_75">
                 Responsible for the design and frontend development of all client websites with a focus on user-centered
                 design principles, best practices, and industry trends. Worked independently to meet tight deadlines,
-                sometimes delivering a new site every week. Also responsible for all branding and print design.
+                sometimes delivering a new site every week. Responsible for all branding and print design.
               </p>
             </div>
             <div class="mb-8 md:border-b md:border-white_25">
@@ -222,7 +221,7 @@
                 <a href="https://www.inspirato.com/details/" target="_blank">
                   WordPress blog
                 </a>
-                . Also, helped launch
+                . Designed and developed
                 <em>Inspirato with American Express</em>, a partnership offering benefits to American Express
                 cardmembers.
               </p>
@@ -241,7 +240,7 @@
                 <a href="https://sftravel.com/" target="_blank">San Francisco</a>,
                 <a href="https://visitphilly.com/" target="_blank">Philadelphia</a>,
                 <a href="https://austintexas.org/" target="_blank">Austin</a>, and
-                <a href="https://visitseattle.org/" target="_blank">Seattle</a>. Also responsible for the design and
+                <a href="https://visitseattle.org/" target="_blank">Seattle</a>. Responsible for the design and
                 management of banner ads via 24/7 Open AdStream.
               </p>
             </div>
