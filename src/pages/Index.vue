@@ -311,16 +311,6 @@
             </p>
           </div>
         </div>
-        <!--TODO:add recent work via dribbble or behance api-->
-        <!-- <div class="flex items-center justify-between mt-20">
-                <div>
-                    <div class="text-2xl text-pink font-normal">Recent work</div>
-                    <h4 class="mb-0 text-5xl text-black leading-extra-tight">Recent work</h4>
-                </div>
-                <div>
-                    View more work
-                </div>
-            </div> -->
       </div>
     </div>
     <!-- end Bio -->
@@ -447,13 +437,61 @@
           </div>
         </div>
       </div>
-      <!-- <g-image
-        class="fixed top-0 right-0 z-0 w-2/3 md:w-3/6"
-        alt="Quarter circle"
-        src="~/assets/img/quarter-circle-bg.svg"
-      /> -->
     </div>
     <!-- end LinkedIn -->
+
+    <!-- Dribbble -->
+    <div class="relative overflow-hidden py-10 md:py-20 bg-white border-t">
+      <div class="inner relative z-10">
+        <div class="flex flex-wrap md:flex-no-wrap md:items-center relative">
+          <div class="order-2 md:order-1 md:w-3/6 md:mr-12">
+            <vuebbble
+              :token="token"
+              :count="count"
+              class="grid grid-cols-2 gap-4"
+          >
+              <div slot="shot" slot-scope="{ shot }">
+                  <a :href="shot.html_url" target="_blank">
+                    <g-image :src="shot.images.normal" :alt="shot.title" class="shadow-lg rounded" />
+                  </a>
+              </div>
+
+              <!-- Optional: Custom error message markup -->
+              <div slot="error" slot-scope="{ error }">
+                  {{ error }}
+              </div>
+          </vuebbble>
+          </div>
+          <div class="order-1 md:order-2 md:w-3/6 mb-5 md:mb-0 md:mlf-12">
+            <h4 class="text-black text-3xl md:text-5xl font-display leading-extra-tight">
+              Recent work
+            </h4>
+            <p class="text-gray-700">
+              Case studies are in the works. In the meantime, check out what I've been up to on Dribbble.
+            </p>
+            <a
+              href="https://dribbble.com/adamrobertson/"
+              target="_blank"
+              class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black hover:text-dribbble border border-gray-400 hover:border-dribbble rounded shadow font-medium"
+            >
+              <svg
+              class="w-5 mr-2 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.628 0-12 5.373-12 12s5.372 12 12 12 12-5.373 12-12-5.372-12-12-12zm9.885 11.441c-2.575-.422-4.943-.445-7.103-.073-.244-.563-.497-1.125-.767-1.68 2.31-1 4.165-2.358 5.548-4.082 1.35 1.594 2.197 3.619 2.322 5.835zm-3.842-7.282c-1.205 1.554-2.868 2.783-4.986 3.68-1.016-1.861-2.178-3.676-3.488-5.438.779-.197 1.591-.314 2.431-.314 2.275 0 4.368.779 6.043 2.072zm-10.516-.993c1.331 1.742 2.511 3.538 3.537 5.381-2.43.715-5.331 1.082-8.684 1.105.692-2.835 2.601-5.193 5.147-6.486zm-5.44 8.834l.013-.256c3.849-.005 7.169-.448 9.95-1.322.233.475.456.952.67 1.432-3.38 1.057-6.165 3.222-8.337 6.48-1.432-1.719-2.296-3.927-2.296-6.334zm3.829 7.81c1.969-3.088 4.482-5.098 7.598-6.027.928 2.42 1.609 4.91 2.043 7.46-3.349 1.291-6.953.666-9.641-1.433zm11.586.43c-.438-2.353-1.08-4.653-1.92-6.897 1.876-.265 3.94-.196 6.199.196-.437 2.786-2.028 5.192-4.279 6.701z"
+                />
+              </svg>
+              <span>View my Dribbble</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Dribbble -->
 
     <!-- Contact -->
     <div class="z-10 py-10 md:py-20 bg-yellow_90">
@@ -576,5 +614,11 @@ export default {
   metaInfo: {
     title: "Adam Robertson - A frontend engineer and UX designer interested in accessibility",
   },
+  data() {
+    return {
+      token: '6913f4e562fd413249130bb8a8ab102ee061f5051935bf2c628ea3db034fe047',
+      count: 4,
+    };
+  }
 };
 </script>
