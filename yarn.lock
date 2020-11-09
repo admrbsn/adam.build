@@ -6248,9 +6248,9 @@ object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
-  integrity sha1-NwrnUvvzfePqcKhhwju6iRVpGUk=
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
 
 object-visit@^1.0.0:
   version "1.0.1"
@@ -9365,11 +9365,6 @@ vue-meta@^2.2.2:
   dependencies:
     deepmerge "^4.2.2"
 
-vue-prlx@^1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/vue-prlx/-/vue-prlx-1.3.4.tgz#b8aac82d5469be2524daf396b034526b8b2e34ba"
-  integrity sha512-5+tuwSlwZDyTUGD6YTg9XW4F4NRgtkpUTdGjXEaYA8SF6hfRKRumDiAIcJ4ZcAt02JjVuPFJGwrRWS/TpLnHmw==
-
 vue-router@^3.1.3:
   version "3.3.4"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.3.4.tgz#4e38abc34a11c41b6c3d8244449a2e363ba6250b"
@@ -9414,6 +9409,11 @@ vue@^2.6.10:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+
+vuebbble@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/vuebbble/-/vuebbble-2.7.2.tgz#ecc6439fb83c942bf460f7149fa7161cf5d76f0c"
+  integrity sha512-fIEAJD/WF7ZIQ87tfwmV76aX8fs4tNCaKy2RDAs0C1o5UuPJBlqgc7LslVqfpWQhhkoqj87alGunMKk5DcmpQg==
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"
