@@ -611,6 +611,12 @@ query {
 
 <script>
 export default {
+  /* components: {
+    Vuebbble: () =>
+      import ('vuebbble')
+      .then(m => m.Vuebbble)
+      .catch(),
+  }, */
   metaInfo: {
     title: "Adam Robertson - A frontend engineer and UX designer interested in accessibility",
   },
@@ -619,6 +625,9 @@ export default {
       token: '6913f4e562fd413249130bb8a8ab102ee061f5051935bf2c628ea3db034fe047',
       count: 4,
     };
+  },
+  mounted() {
+    //window.vuebbble = require('vuebbble');
   }
 };
 </script>
