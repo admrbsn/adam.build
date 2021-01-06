@@ -69,8 +69,8 @@
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">
           Design and technology make a great pairing—luckily, I have a background in both. Currently, I'm a frontend
-          engineer working in Colorado. Check out some of my recent work at Dribbble and GitHub, or a case study on Medium. You can also learn more
-          about me below or take a look at my résumé.
+          engineer working in Colorado. Check out some of my recent work at <a href="https://dribbble.com/adamrobertson/" target="_blank">Dribbble</a> and <a href="https://github.com/admrbsn/" target="_blank">GitHub</a>, or a case study on <a href="https://adamrobertson.medium.com/" target="_blank">Medium</a>. You can also learn more
+          about me below or take a look at my <a href="/Adam Robertson - Resume.pdf" target="_blank">résumé</a>.
         </p>
         <a
           href="https://dribbble.com/adamrobertson/"
