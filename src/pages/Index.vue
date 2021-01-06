@@ -69,7 +69,7 @@
         </h1>
         <p class="md:mt-12 md:mb-8 text-gray-600 text-xl md:text-2xl">
           Design and technology make a great pairing—luckily, I have a background in both. Currently, I'm a frontend
-          engineer working in Colorado. Check out some of my recent work at Dribbble and GitHub. You can also learn more
+          engineer working in Colorado. Check out some of my recent work at Dribbble and GitHub, or a case study on Medium. You can also learn more
           about me below or take a look at my résumé.
         </p>
         <a
@@ -89,6 +89,24 @@
             />
           </svg>
           <span>Dribbble</span>
+        </a>
+        <a
+          href="https://adamrobertson.medium.com/"
+          target="_blank"
+          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-400 rounded shadow text-lg font-medium hover:text-dribbble hover:border-dribbble"
+        >
+          <svg
+              class="w-5 mr-2 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 1043.63 592.71"
+              >
+                <path
+                  d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"
+                >
+              </svg>
+          <span>Case studies</span>
         </a>
         <a
           href="https://github.com/admrbsn/"
@@ -467,7 +485,7 @@
               Recent work
             </h4>
             <p class="text-gray-700">
-              Check out what I've been up to on Dribbble. Or, check out a case study on Medium.
+              Check out what I've been up to on Dribbble. Or, read a case study on Medium.
             </p>
             <a
               href="https://dribbble.com/adamrobertson/"
