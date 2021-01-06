@@ -93,7 +93,7 @@
         <a
           href="https://adamrobertson.medium.com/"
           target="_blank"
-          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-400 rounded shadow text-lg font-medium hover:text-dribbble hover:border-dribbble"
+          class="inline-flex items-center mr-2 py-4 px-6 bg-white text-black border border-gray-400 rounded shadow text-lg font-medium hover:text-black hover:border-black"
         >
           <svg
               class="w-5 mr-2 fill-current"
